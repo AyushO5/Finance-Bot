@@ -1,7 +1,6 @@
 import re
 
-import re
-
+# Fix #6: import re was duplicated; removed duplicate
 def extract_income(text):
     text = text.lower()
 
@@ -10,10 +9,11 @@ def extract_income(text):
     if not any(word in text for word in income_keywords):
         return None
 
-    match = re.search(r'\d+', text)
+    # Fix #6: Use 4-7 digit range to avoid grabbing zip codes, ages, phone numbers
+    match = re.search(r'\b(\d{4,7})\b', text)
 
     if match:
-        return int(match.group())
+        return int(match.group(1))
 
     return None
 
