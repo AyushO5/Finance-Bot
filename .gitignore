@@ -5,4 +5,7 @@ __pycache__/
 *.pyo
 *.pyd
 .DS_Store
-user_memory
+user_memory/
+*.db
+*.sqlite
+*.sqlite3
