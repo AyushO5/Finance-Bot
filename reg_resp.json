@@ -1,8 +1,0 @@
-{
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc3Nzg5MTI2NiwianRpIjoiMGVhMzNkODktMWNjNS00OWU4LWFjMzgtNzIwMDUyMjI1MjIzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjMiLCJuYmYiOjE3Nzc4OTEyNjYsImNzcmYiOiJkNjA2M2Q2YS1jYzVlLTQxNDQtYTY0NS1iYzE3ZGFiN2I4OGMifQ.I9qNh4N8-9R9tdljaaUQtVDeqMGwb9XyUhdv6I58DkQ",
-  "user": {
-    "email": "test@test.com",
-    "id": 3,
-    "name": "testuser"
-  }
-}
